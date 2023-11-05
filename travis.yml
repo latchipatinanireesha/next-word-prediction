@@ -1,0 +1,10 @@
+language: sh
+sudo: required
+services: [docker]
+branches: {only: [master]}
+
+before_install:
+  - ./scripts/run build
+
+script:
+  - ./scripts/run check

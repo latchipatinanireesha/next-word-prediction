@@ -1,0 +1,9 @@
+[flake8]
+exclude=build,
+        doc,
+        local,
+        .eggs
+
+[metadata]
+description-file=README.md
+

@@ -1,0 +1,16 @@
+# Exclude by default
+
+*
+
+# Include specific files & folders
+
+!lmchallenge/*
+!README.md
+!requirements*
+!setup.py
+!setup.cfg
+!version.txt
+
+# Re-exclude some files
+
+*.pyc
